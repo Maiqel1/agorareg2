@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+.jumbo{
+    background-image: url(img1.png);
+    width: 491px;
+    height: 486px;
+   background-repeat: no-repeat;
+   margin-left: 5px;
+
+}
+
+.jumbo h1{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 37px;
+letter-spacing: 0.04em;
+color: white;
+text-align: center;
+}
+
+.jumbo p{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+color: white;
+text-align: center;
+}
+
+.intro{
+    text-align: left;
+}
+
+.intro h2{
+    font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+margin-left: 10px;
+}
+
+.intro p{
+    font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+margin-left: 10px;
+}
+
+.form{
+    margin-bottom: 15px;
+
+    
+}
+
+.form:focus{
+    outline: none;
+}
+
+.form input{
+    width: 95%;
+    margin-left: 10px;
+    height: 41px;
+    border: 0.5px solid #323232;
+box-sizing: border-box;
+border-radius: 20px;
+outline: none;
+
+
+}
+
+.form input::placeholder{
+ padding-left: 10px;
+}
+
+.reg button{
+    width: 95%;
+    margin-left: 10px;
+ height: 41px;
+background: #5B9DC2;
+border-radius: 20px;
+color: white;
+font-size: 14px;
+display: block;
+border: none;
+outline: none;
+}
+
+.section2 h3{
+    font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 16px;
+color: rgba(0, 0, 0, 0.8);
+opacity: 0.8;
+text-align: center;
+
+}
+
+.facebook{
+    margin-left: 5px;
+}
+
+.section3{
+   margin-left: 160px;
+   margin-top: 20px;
+}
